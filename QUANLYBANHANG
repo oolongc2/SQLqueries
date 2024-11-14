@@ -1,0 +1,11 @@
+-- Create KHACHHANG table
+CREATE TABLE KHACHHANG
+(
+	MAKH char(4) PRIMARY KEY,
+    HOTEN varchar(40),
+    DCHI varchar(50),
+    SODT varchar(20),
+    NGSINH smalldatetime,
+    DOANHSO money,
+    NGDK smalldatetime
+)
